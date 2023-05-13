@@ -5,20 +5,17 @@ export default function Navbar() {
     return (
 
         <div>
-
-            <nav>
-                <div><Link to="/"> LOGO </Link></div>
-
+            <nav className='navbarsss'>
+                <div ><Link to="/"> <h3>LOGO GO GO GO</h3> </Link></div>
                 <ul>
-
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/main">Main</Link></li>
-                    <li><Link to="/section">Section</Link></li>
-                    {/*<li><Link to="/react_bootstrap">React-bootstrap</Link></li>*/}
-
+                    <li><Link to="/home"><h4>Home</h4></Link></li>
+                    <li><Link to="/mains"><h4>Mains</h4></Link></li>
+                    <li><Link to="/sections"><h4>Sections</h4></Link></li>
+                    <li><Link to="/menus"><h4>Menus</h4></Link></li>
+                    {/*<li><Link to="/reactbootstrap"><h4>Reactbotstrap</h4></Link></li>*/}
+                    {/* <li><Link to="/react_bootstraps"><h4>React-bootstrap</h4> </Link> </li>*/}
                 </ul>
             </nav>
-
         </div>
     )
 }

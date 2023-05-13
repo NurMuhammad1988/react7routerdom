@@ -5,11 +5,57 @@
   list-style: none;
   text-decoration: none;
 }
-/* body{
-  text-align: center;
+
+body{
   background: rgb(144, 151, 102);
-} */
-.contact{
+}
+
+
+.navbarsss{
+  height: 70px;
+  background-color: #555;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbarsss h3{
+  color: #ff3f3f;
+  font-weight: 800;
+ }
+
+ ul{
+  display: flex;
+ }
+
+ .navbarsss ul li{
+  display: flex;
+ }
+
+ .navbarsss ul h4{
+  color: white;
+  font-size: 20px;
+  margin-right: 50px;
+ }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .contact{
   max-width: 300px;
   margin: 30px auto 0;
 }
@@ -44,30 +90,10 @@
   border: 1px solid red;
   font-size: 15px;
   
-}
+} */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ */
 
 /* .App {
   text-align: center;
